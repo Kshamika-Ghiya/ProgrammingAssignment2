@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## makeCasheMarix creates a special matrix object, 
+## which cashes the inverse, i.e. invertible square matrix
+## gives the inverse matrix as output 
 
 makeCacheMatrix <- function(x = matrix()) {
         a <- NULL
@@ -19,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve computes the inverse.
 
 cacheSolve <- function(x, ...) {
         a = x$getInv()
